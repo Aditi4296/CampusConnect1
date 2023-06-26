@@ -1,6 +1,7 @@
 Here is the Link to our Figma designs for the Website.
 https://www.figma.com/file/VkcUPey9kkRCuJNKqJ8ugm/JamShack?node-id=0%3A1&mode=dev
 
+For loading the images correctly move the images folder from src to public and refresh the localhost.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
