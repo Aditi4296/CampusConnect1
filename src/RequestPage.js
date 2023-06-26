@@ -3,20 +3,21 @@ import Nav from "./Nav";
 import "./Request.css";
 const RequestItem = () => {
   return (
-    <div className="mainbox">
+    <div className="mainbox--div">
       <Nav />
+      <div className="board--div">
       <img className="board" src="./images/board.png"></img>
       <div className="rectangle24">
+        <div className="entry">
         <p className="request">Request Item:</p>
         <input className="rectangle27" type="text"></input>
-
-        <p className="priceExpect">Price expected:</p>
-        <input className="rectangle28" type="text"></input>
-        <div className="rectangle25">
-          <p className="searchText">
-            <a href="#">Search</a>
-          </p>
         </div>
+        <div className="entry">
+        <p className="request">Price expected:</p>
+        <input className="rectangle28" type="text"></input>
+        </div>
+        <p></p>
+        <button type="button" className="search--request">Search</button>
       </div>
 
       <div className="rectangle26">
@@ -31,7 +32,7 @@ const RequestItem = () => {
             <option value="Item 3">Item 3</option>
           </select>
         </div>
-        <div className="rectangle30">
+        <div className="rectangle29">
           <p className="text1">Electrical Appliances</p>
           <select className="drop1">
             <option value="Item 1">Item 1</option>
@@ -39,7 +40,7 @@ const RequestItem = () => {
             <option value="Item 3">Item 3</option>
           </select>
         </div>
-        <div className="rectangle31">
+        <div className="rectangle29">
           <p className="text1">Study Material</p>
           <select className="drop1">
             <option value="Item 1">Item 1</option>
@@ -47,7 +48,7 @@ const RequestItem = () => {
             <option value="Item 3">Item 3</option>
           </select>
         </div>
-        <div className="rectangle32">
+        <div className="rectangle29">
           <p className="text1">Stationary</p>
           <select className="drop1">
             <option value="Item 1">Item 1</option>
@@ -55,7 +56,7 @@ const RequestItem = () => {
             <option value="Item 3">Item 3</option>
           </select>
         </div>
-        <div className="rectangle33">
+        <div className="rectangle29">
           <p className="text1">Accessories</p>
           <select className="drop1">
             <option value="Item 1">Item 1</option>
@@ -63,7 +64,7 @@ const RequestItem = () => {
             <option value="Item 3">Item 3</option>
           </select>
         </div>
-        <div className="rectangle34">
+        <div className="rectangle29">
           <p className="text1">Clothes</p>
           <select className="drop1">
             <option value="Item 1">Item 1</option>
@@ -71,6 +72,7 @@ const RequestItem = () => {
             <option value="Item 3">Item 3</option>
           </select>
         </div>
+      </div>
       </div>
     </div>
   );
