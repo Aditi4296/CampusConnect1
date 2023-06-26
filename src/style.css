@@ -6,6 +6,19 @@ body{
   margin : 0;
   font-family: 'Poppins', sans-serif;
 }
+.app{
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    background-color: #cfd5f7;
+}
+
+.app__body{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
 .navbar{
     background-color: #EF8F6D;
     display: flex;
