@@ -1,11 +1,28 @@
 import React from "react";
 import {Outlet, Link, useNavigate} from "react-router-dom"
+import {auth} from './firebase'
+import {createUserWithEmailAndPassword} from 'firebase/auth' 
 
 export default function Form2()
 {
     const [name,setName]=React.useState("");
     const [email,setEmail]=React.useState("");
     const [password,setPassword]=React.useState("");
+
+    const navigate=useNavigate();
+
+    const register = e => {
+        e.preventDefault()
+        
+          // Create a new user with email and password using firebase
+            createUserWithEmailAndPassword(auth, email, password)
+            .then((res) => {
+                console.log(res.user)
+              })
+              setEmail('')
+              setPassword('')
+              navigate('/login');
+      }
     
     function handleNameChange(event)
     {
@@ -19,13 +36,10 @@ export default function Form2()
     {
         setPassword(event.target.value)
     }
-    const navigate=useNavigate();
-    const handleSubmit = event =>{
-        event.preventDefault();
-        navigate('/login');
-    }
+    
+    
     return(
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={register}>
             <p className="name--user">Name</p>
             <input type="name"
             placeholder="Enter you name"

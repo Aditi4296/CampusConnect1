@@ -1,11 +1,30 @@
 import React from "react";
 import {Outlet, Link,useNavigate} from "react-router-dom"
+import {auth} from './firebase'
+import {signInWithEmailAndPassword} from 'firebase/auth' 
+import {nanoid} from "nanoid"
 
 export default function Form()
 {
     const [email,setEmail]=React.useState("");
     const [password,setPassword]=React.useState("");
     
+    const navigate=useNavigate();
+
+    const register = e => {
+        e.preventDefault()
+        
+          // Create a new user with email and password using firebase
+            signInWithEmailAndPassword(auth, email, password)
+            .then((res) => {
+                console.log(res.user)
+                setEmail('')
+                setPassword('')
+                localStorage.setItem("userId", nanoid())
+                navigate('/');
+              })
+              .catch((err) => console.log(err.message));
+      }
     function handleEmailChange(event)
     {
         setEmail(event.target.value)
@@ -14,13 +33,9 @@ export default function Form()
     {
         setPassword(event.target.value)
     }
-    const navigate=useNavigate();
-    const handleSubmit = event =>{
-        event.preventDefault();
-        navigate('/');
-    }
+    
     return(
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={register}>
             <p className="email">Email</p>
             <input type="email"
             placeholder="Enter you email"
@@ -36,7 +51,7 @@ export default function Form()
             name="password"
             value={password}
             />
-            <p className="forgot"><a>Forgot Password?</a></p>
+            <p></p>
             <button type="submit">Login</button>
             <br>
             </br>

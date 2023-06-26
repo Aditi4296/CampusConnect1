@@ -3,6 +3,11 @@ import avatar from "./images/Avatar.png"
 import {Outlet, Link,useNavigate} from "react-router-dom"
 
 export default function Nav(){
+    const userid = localStorage.getItem("userId")
+    const handleSignOut = () => {
+        localStorage.removeItem("userId");
+        window.location.reload();
+    }
     return(
         <div  className="navbar">
             <div className="campus">
@@ -15,10 +20,17 @@ export default function Nav(){
                 <Link to="/store"><p>Store</p></Link>
                 <Link to="/community"><p>Community</p></Link>
             </div>
-            <div className="right--div">
-                <Link to="/login"><p>Login/Signup</p></Link>
+            {
+                userid?
+                <div className="right--div">                
+                <Link to="/" onClick={handleSignOut}><p>Signout</p></Link>
                 <img src={avatar}></img>
-            </div>
+                 </div>:
+            
+                <div className="right--div">                
+                    <Link to="/login"><p>Login/Signup</p></Link>
+                </div>
+            }
             <Outlet />
         </div>
     )

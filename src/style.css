@@ -65,7 +65,7 @@ body{
     height:90vh;
     margin-left:10vh;
     background-color: rgba(255, 255, 255, 0.7);
-    
+    box-shadow: 0.1rem 0.1rem 0.2rem #5e5d5dcb;
 }
 .image--div img{    
     border-radius : 3rem 0px 0px 3rem;
@@ -82,10 +82,11 @@ body{
     padding:1.5rem; 
     padding-left: 4.5rem;
     padding-right: 3rem;    
+    box-shadow: 0.1rem 0.1rem 0.2rem #5e5d5dcb;
 }
 .hello 
 {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     font-weight:600;
     color: #302D2D;
 }
@@ -94,7 +95,7 @@ input{
     border:transparent;
     font-size: 1rem;
     border-radius: 0.55rem;
-    box-shadow: 0.2rem 0.3rem 1rem #949191;
+    box-shadow: 0.1rem 0.1rem 0.2rem #5e5d5dcb;
     height:3rem;
     font-weight: 600;
     width:100%;
