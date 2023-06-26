@@ -1,23 +1,27 @@
 /* Cart */
-
+.main{
+  width: 100%;
+}
 /* Auto layout */
 .Outer {
   align-items: center;
+  
   justify-content: center;
   position: absolute;
-  left: 25%;
+  /* left: 25%; */
   align-content: center;
-  width: 1000px;
-  height: 700px;
-  margin-top: 10%;
+  width: 100%;
+  height: 100vh;
+  margin-top: 40px;
   background: #ab91ce;
-  border-radius: 20px;
+  border-radius: 0px;
   top: 10px;
 }
 
 /* Rectangle 67 */
 .rectangle67 {
-  position: absolute;
+  position: relative;
+  margin-left: 200px;
   width: 1000px;
   height: 720px;
 
@@ -27,6 +31,8 @@
 
 /* Frame 1 */
 .frame {
+  display: flex;
+  flex: 0.5;
   position: absolute;
   width: 450px;
   height: 654px;
@@ -39,16 +45,21 @@
   /* Inside auto layout */
 }
 .quantity {
-  position: relative;
-  top: 60px;
-  left: 260px;
-  width: 100px;
-}
-.quantity1 {
-  position: relative;
+  display: flex ;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  float:left;
   top: 80px;
   left: 260px;
-  width: 100px;
+  width: 20px;
+}
+.quantity1 {
+  display: flex !important;
+  position: relative;
+  top: 200px;
+  left: 260px;
+  width: 20px;
 }
 /* CHECK OUT MENU ! */
 .textCheck {
@@ -104,6 +115,7 @@
 }
 /* Quantity: */
 .textQuantity {
+  /* display: flex !important; */
   position: relative;
   width: 126px;
   height: 33px;
@@ -219,6 +231,7 @@
 
 /* Rectangle 68 */
 .rect68 {
+  display: flex;
   position: absolute;
   width: 450px;
   height: 655px;
@@ -271,6 +284,7 @@
   z-index: 5;
 }
 .dec {
+  flex: 0.5;
   position: absolute;
   width: 521px;
   height: 85px;
