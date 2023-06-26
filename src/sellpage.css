@@ -1,0 +1,491 @@
+/* item preview */
+.item {
+    position: absolute;
+    width: 803px;
+    height: 842px;
+    left: 521px;
+    top: 125px;
+  }
+  
+  /* Rectangle 26 */
+  .rect26 {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 803px;
+    height: 103px;
+    left: 5px;
+    top: 1px;
+  
+    background: #bfc8f3;
+    border: 4px solid #ffffff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  
+  /* ITEM PREVIEW */
+  .text {
+    position: absolute;
+    width: 435px;
+    height: 58px;
+    left: 200px;
+    top: 20px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+  
+    color: #434343;
+  }
+  
+  /* Rectangle 29 */
+  .rect29 {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 803px;
+    height: 714px;
+    left: 5px;
+    top: 120px;
+  
+    background: "./icons/Rectangle 29.png";
+    border: 4px solid #ffffff;
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+  }
+  /* displaypane */
+.display{
+    position: absolute;
+    width: 600px;
+    height: 842px;
+    left: 0px;
+    top: 125px;
+    
+    }
+    
+    /* Rectangle 27 */
+    .rect27{
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 600px;
+    height: 842px;
+    left: 1400px;
+    top: 125px;
+    
+    background: #BFC8F3;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    
+    }
+    /* maggiee */
+    .prod{
+    position: absolute;
+    width: 221px;
+    height: 56px;
+    left: 20px;
+    top: 110px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: lowercase;
+    
+    color: #000000;
+    }
+    
+    
+    /* rp 20/- */
+    .rs{
+    position: absolute;
+    width: 221px;
+    height: 56px;
+    left: 20px;
+    top: 45px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    }
+    
+    
+    /* Raat ko do baje ka best food ..plus hostel hai yahan yahi milega bro...us bro us */
+    .desc{
+    position: absolute;
+    width: 221px;
+    height: 155px;
+    left: 13px;
+    top: 42px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+    }
+    
+    /* Description */
+    .description-1{
+    position: absolute;
+    width: 162px;
+    height: 32px;
+    left: 13px;
+    top: 367px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #4F4C4C;
+    
+    }
+    
+    /* Title */
+    .title{
+    position: absolute;
+    width: 102px;
+    height: 32px;
+    left: 13px;
+    top: 95px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #4F4C4C;
+    }
+    
+    
+    /* Description */
+    .type{
+    position: absolute;
+    width: 162px;
+    height: 32px;
+    left: 13px;
+    top: 547px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #4F4C4C;
+    }
+    
+    
+    /* New */
+    .ty{
+    position: absolute;
+    width: 81px;
+    height: 30px;
+    left: 13px;
+    top: 50px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    }
+    
+    
+    /* Price */
+    .price{
+    position: absolute;
+    width: 102px;
+    height: 32px;
+    left: 13px;
+    top: 252px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    
+    color: #4F4C4C;
+    }
+    
+    /* describeYourself */
+.out {
+    position: absolute;
+    width: 461px;
+    height: 842px;
+    left: 40px;
+    top: 125px;
+  }
+  
+  /* Rectangle 20 */
+  .rect20 {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 453px;
+    height: 842px;
+    left: 40px;
+    top: 125px;
+  
+    background: #bfc8f3;
+    border: 4px solid #ffffff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  /* Rectangle 24 */
+  .rect24 {
+    position: absolute;
+    width: 390px;
+    height: 57px;
+    left: 74px;
+    top: 817px;
+  
+    background: #f4f4f4;
+    border-radius: 50px;
+  }
+  /* Rectangle 25 */
+  .rect25 {
+    position: absolute;
+    width: 386px;
+    height: 51px;
+    left: 40px;
+    top: 750px;
+  
+    background: #d9dfff;
+    border-radius: 50px;
+  }
+  /* Rectangle 22 */
+  .rect22 {
+    position: absolute;
+    width: 390px;
+    height: 57px;
+    left: 35px;
+    top: 650px;
+  
+    background: #f4f4f4;
+    border-radius: 50px;
+  }
+  /* Rectangle 23 */
+  .rect23 {
+    position: absolute;
+    width: 130px;
+    height: 51px;
+    left: 74px;
+    top: 400px;
+  
+    background: #d9dfff;
+    border-radius: 50px;
+  }
+  /* NEW */
+  .newbutton {
+    position: relative;
+    width: 6px;
+    height: 10px;
+    left: 40px;
+    top: 15px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #272626;
+  }
+  
+  /* SECOND */
+  .old {
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 300px;
+    top: 15px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #272626;
+  }
+  
+  /* Rectangle 17 */
+  .rect17 {
+    position: relative;
+    width: 364px;
+    height: 66px;
+    left: 40px;
+    top: 20px;
+  
+    background: #ef8f6d;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  /* Sell your Items here! */
+  .sellitem {
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 90px;
+    top: 18px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  
+    color: #272626;
+  }
+  
+  /* Rectangle 18 */
+  .rect18 {
+    position: absolute;
+    width: 390px;
+    height: 57px;
+    left: 74px;
+    top: 327px;
+  
+    background: #f4f4f4;
+    border-radius: 50px;
+  }
+  /* Rectangle 28 */
+  .rect28 {
+    position: absolute;
+    width: 350px;
+    height: 57px;
+    left: 25px;
+    top: 70px;
+  
+    background: #f4f4f4;
+    border-radius: 50px;
+  }
+  /* Title */
+  .title1 {
+    position: absolute;
+    width: 102px;
+    height: 32px;
+    left: 40px;
+    top: 50px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  
+    color: #272626;
+  }
+  
+  /* Upload the image of the item */
+  .upload {
+    border-radius: 20px;
+    border-color: #bfc8f3;
+    border-style: solid;
+  
+    position: absolute;
+    width: 325px;
+    height: 32px;
+    left: 30px;
+    top: 10px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  
+    color: #272626;
+  }
+  
+  /* Rectangle 21 */
+  .rect21 {
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    left: 40px;
+    top: 130px;
+  
+    background: #f4f4f4;
+    border-radius: 35px;
+  }
+  
+  /* Description */
+  .description {
+    position: absolute;
+    width: 166px;
+    height: 32px;
+    left: 15px;
+    top: 430px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  
+    color: #272626;
+  }
+  
+  /* Price */
+  .price1 {
+    position: absolute;
+    width: 102px;
+    height: 32px;
+    left: 38px;
+    top: 200px;
+  
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  
+    color: #272626;
+  }
+  /* Rectangle 19 */
+  .rect19 {
+    position: relative;
+    width: 350px;
+    height: 57px;
+    left: 25px;
+    top: 25px;
+  
+    background: #f4f4f4;
+    border-radius: 50px;
+  }
+  /* Vector */
+  
+  /* position: absolute;
+  left: 24.48%;
+  right: 73.75%;
+  top: 81.45%;
+  bottom: 16.41%;
+  
+  background: #272626; */
+  

@@ -1,0 +1,287 @@
+/* Cart */
+
+/* Auto layout */
+.Outer {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 25%;
+  align-content: center;
+  width: 1000px;
+  height: 700px;
+  margin-top: 10%;
+  background: #ab91ce;
+  border-radius: 20px;
+  top: 10px;
+}
+
+/* Rectangle 67 */
+.rectangle67 {
+  position: absolute;
+  width: 1000px;
+  height: 720px;
+
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 27px;
+}
+
+/* Frame 1 */
+.frame {
+  position: absolute;
+  width: 450px;
+  height: 654px;
+  left: 480px;
+  top: 0px;
+
+  background: #d9dfff;
+  border-radius: 20px;
+
+  /* Inside auto layout */
+}
+.quantity {
+  position: relative;
+  top: 60px;
+  left: 260px;
+  width: 100px;
+}
+.quantity1 {
+  position: relative;
+  top: 80px;
+  left: 260px;
+  width: 100px;
+}
+/* CHECK OUT MENU ! */
+.textCheck {
+  position: absolute;
+  width: 336px;
+  height: 50px;
+  left: 79px;
+  top: 6px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Rectangle 69 */
+.rectangle69 {
+  position: absolute;
+  width: 239px;
+  height: 60px;
+  left: 186px;
+  top: 140px;
+
+  background: #73a4d9;
+  border-radius: 10px;
+}
+
+/* Rectangle 72 */
+.rectangle72 {
+  position: absolute;
+  width: 239px;
+  height: 40px;
+  left: 186px;
+  top: -10px;
+  font-size: 20px;
+  background: #a5c5e8;
+  border-radius: 10px;
+}
+/* Rectangle 73 */
+.rectangle73 {
+  position: absolute;
+  width: 239px;
+  height: 60px;
+  left: 186px;
+  top: 346px;
+
+  background: #73a4d9;
+  border-radius: 10px;
+}
+/* Quantity: */
+.textQuantity {
+  position: relative;
+  width: 126px;
+  height: 33px;
+  left: 20px;
+  top: 153px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Location: */
+.textLocation {
+  position: absolute;
+  width: 126px;
+  height: 33px;
+  left: 20px;
+  top: 377px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Rectangle 70 */
+.rectangle70 {
+  position: absolute;
+  width: 139px;
+  height: 55px;
+  left: 60px;
+  top: 510px;
+
+  background: #d06c4b;
+  border-radius: 30px;
+}
+
+/* Rectangle 71 */
+.rectangle71 {
+  position: absolute;
+  width: 134px;
+  height: 55px;
+  left: 280px;
+  top: 510px;
+
+  background: #d06c4b;
+  border-radius: 30px;
+}
+
+/* RENT */
+.rentText {
+  position: absolute;
+  width: 126px;
+  height: 33px;
+  left: 7px;
+  top: 15px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* BUY */
+.buy {
+  position: relative;
+
+  width: 126px;
+  height: 33px;
+  left: 46px;
+  top: 21px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Number of days to Rent: */
+.number {
+  position: absolute;
+  width: 157px;
+  height: 36px;
+  left: 16px;
+  top: 266px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Rectangle 68 */
+.rect68 {
+  position: absolute;
+  width: 450px;
+  height: 655px;
+  left: 33px;
+  top: 30px;
+
+  background: #ef8f6d;
+  border-radius: 20px;
+}
+
+/* Rectangle 66 */
+.rect66 {
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  left: 0px;
+  top: 5px;
+
+  /* background: url(maggie.jpg); */
+  filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  z-index: 4;
+}
+
+/* Description: Nestle Noodles “Maggie” Wahi jo tum Raat m kettle dalkr bnate h! Chalo Chalo kiso nahi batynge khareedlo!!! */
+.de {
+  position: absolute;
+  width: 521px;
+  height: 85px;
+  left: 15px;
+  top: 50px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  z-index: 5;
+}
+.dec {
+  position: absolute;
+  width: 521px;
+  height: 85px;
+  left: 25px;
+  top: 320px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
