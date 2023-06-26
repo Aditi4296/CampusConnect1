@@ -7,6 +7,8 @@ import RequestItem from './RequestPage';
 import RentBuy from './RentBuy';
 import CheckOut from "./checkout";
 import SellPage from "./sellpage"
+import Community from './Community';
+
 export default function App()
 {
     return(
@@ -20,6 +22,7 @@ export default function App()
             <Route path="/store" element={<RentBuy/>}/>
             <Route path="/checkout" element={<CheckOut/>}/>
             <Route path="/sell" element={<SellPage/>}/>
+            <Route path="/community" element={<Community/>}/>
             </Routes>
         </Router>
         </div>

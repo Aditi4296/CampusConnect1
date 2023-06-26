@@ -13,7 +13,7 @@ export default function Nav(){
                 <p>About US</p>
                 <Link to="/sell"><p>Sell</p></Link>
                 <Link to="/store"><p>Store</p></Link>
-                <p>Community</p>
+                <Link to="/community"><p>Community</p></Link>
             </div>
             <div className="right--div">
                 <Link to="/login"><p>Login/Signup</p></Link>
