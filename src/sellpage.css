@@ -1,12 +1,20 @@
 /* item preview */
 .item {
+  display: block;
     position: absolute;
     width: 803px;
     height: 842px;
     left: 521px;
     top: 125px;
   }
-  
+  .buttonsell{
+    position: absolute;
+    left: 180px;
+    /* border: #000000; */
+    height: 50px;
+    width: 100px;
+    top: 600px;
+  }
   /* Rectangle 26 */
   .rect26 {
     box-sizing: border-box;
@@ -43,7 +51,7 @@
   /* Rectangle 29 */
   .rect29 {
     box-sizing: border-box;
-  
+    display: block;
     position: absolute;
     width: 803px;
     height: 714px;
@@ -62,13 +70,13 @@
     height: 842px;
     left: 0px;
     top: 125px;
-    
+    display: block;
     }
     
     /* Rectangle 27 */
     .rect27{
     box-sizing: border-box;
-    
+    display: block;
     position: absolute;
     width: 600px;
     height: 842px;
@@ -244,7 +252,7 @@
   /* Rectangle 20 */
   .rect20 {
     box-sizing: border-box;
-  
+    display: block;
     position: absolute;
     width: 453px;
     height: 842px;
@@ -273,7 +281,7 @@
     width: 386px;
     height: 51px;
     left: 40px;
-    top: 750px;
+    top: 700px;
   
     background: #d9dfff;
     border-radius: 50px;
@@ -441,7 +449,7 @@
     width: 166px;
     height: 32px;
     left: 15px;
-    top: 430px;
+    top: 380px;
   
     font-family: "Lato";
     font-style: normal;

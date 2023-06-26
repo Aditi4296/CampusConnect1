@@ -1,8 +1,13 @@
 import React from "react";
 import "./sellpage.css";
-const SellPage = () => {
+import UploadImage from "./UploadImage";
+// import DynamicSell from "./DynamicSell";
+import Nav from "./Nav";
+
+const SellPage=()=> {
   return (
     <div>
+      <Nav></Nav>
       <form className="rect20">
         <div className="rect17">
           <label className="sellitem">Sell your item here</label>
@@ -19,13 +24,12 @@ const SellPage = () => {
           Description:
           <input className="rect21" type="text" />
         </label>
-        <div className="rect22">
-          <span className="newbutton">New</span>
-          <span className="old">Old</span>
-        </div>
+        
         <div className="rect25">
-          <button className="upload">Upload the image </button>
+          <UploadImage></UploadImage>
+          
         </div>
+        <div className="buttonsell" ><button type="submit">Sell</button></div>
       </form>
 
       <div className="item">
@@ -33,22 +37,22 @@ const SellPage = () => {
           <p className="text">Item Preview</p>
         </div>
         <div className="rect29">
-          <img src="./icons/Rectangle 29.png"></img>
+          <img src="./images/Rectangle 29.png"></img>
         </div>
       </div>
 
       <div className="rect27">
         <div>
           <div className="title1"> Title</div>
-          <span className="prod">Maggie</span>
+          <span className="prod">title</span>
         </div>
         <div className="price1 ">
           Price
-          <span className="rs">Rs 20</span>
+          <span className="rs">price</span>
         </div>
         <div className="description-1">
           Description
-          <span className="desc">Lorem impsum .......</span>
+          <span className="desc">description</span>
         </div>
         <div className="type">
           Type<span className="ty">New</span>
