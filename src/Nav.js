@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "./images/Avatar.png"
+import logo from "./images/CampusConnect_Logo.png"
 import {Outlet, Link,useNavigate} from "react-router-dom"
 
 export default function Nav(){
@@ -11,7 +12,7 @@ export default function Nav(){
     return(
         <div  className="navbar">
             <div className="campus">
-            <Link to="/"><p >CampusConnect</p></Link>
+            <Link to="/"><img style={{width:"100px"}} src={logo}></img></Link>
             </div>
             <div className="center">
                <Link to="/"> <p>Home</p></Link>
